@@ -8,20 +8,17 @@ const Home = () => {
     return (
         <section className="hide-scrollbar container mx-auto space-y-6 overflow-y-auto py-6">
             <div className="flex flex-wrap justify-between">
-                <div className="border border-yellow-800">
+                <div className="md:w-full xl:w-auto">
                     <Greetings />
                     <Stats />
                 </div>
-
-                <div className="border border-purple-900">
+                <div className="md:order-2 md:mt-3 md:w-[48%] xl:order-none xl:mt-0 xl:w-auto">
                     <Appointments />
                 </div>
-
-                <div className="mt-4">
+                <div className="md:order-1 md:mt-3 md:w-[48%] xl:order-none xl:mt-0 xl:w-auto">
                     <Todo />
                 </div>
-
-                <div className="">
+                <div className="w-full md:order-4 xl:order-none xl:w-auto">
                     <Updates />
                 </div>
             </div>

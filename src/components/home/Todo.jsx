@@ -2,7 +2,7 @@ import { BsPlus } from "react-icons/bs";
 
 const Todo = () => {
     return (
-        <section className="flex max-h-[70vh] flex-col space-y-6 overflow-hidden rounded bg-white p-4 shadow-md dark:bg-white/10">
+        <section className="flex max-h-[70vh] flex-col space-y-6 overflow-hidden rounded bg-white p-4 shadow-md dark:bg-white/10 md:max-h-[80vh] xl:max-h-[70vh]">
             <h1 className="text-xl font-semibold">To-Do List</h1>
             <div className="relative">
                 <div className="mt-1">
