@@ -1,11 +1,9 @@
-import { FiMenu } from "react-icons/fi";
 import RenderThemeChanger from "../theme/RenderThemeChanger";
 import ProfileMenu from "./ProfileMenu";
 const Header = () => {
     return (
         <>
             <header className="z-40 mx-auto w-full">
-                <FiMenu />
                 <div className="mx-auto flex items-center justify-between gap-4 py-4 lg:py-6 2xl:container">
                     {/* page name */}
                     <div className="text-lg font-semibold dark:text-white">

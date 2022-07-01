@@ -1,6 +1,6 @@
 const Appointments = () => {
     return (
-        <section className="flex max-h-[80vh] flex-col space-y-6 overflow-hidden rounded bg-white p-4 shadow-md dark:bg-white/10">
+        <section className="flex max-h-[100vh] flex-col space-y-6 overflow-hidden rounded bg-white p-4 shadow-md dark:bg-white/10">
             <h1 className="text-xl font-semibold">Upcoming Appointments</h1>
             <ul className="hide-scrollbar overflow-y-auto">
                 {[...Array(10)].map((_, i) => (
