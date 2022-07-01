@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.hide-scrollbar::-webkit-scrollbar {
-    display: none;
+@layer components {
+    .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    .li {
+        @apply relative cursor-pointer overflow-hidden px-2;
+    }
+    .li-icon {
+        @apply h-7 w-7 group-hover:text-hot-pink;
+    }
 }
